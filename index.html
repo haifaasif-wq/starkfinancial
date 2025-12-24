@@ -3,308 +3,557 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stark Financial - Unlock Financial Freedom | Free Training</title>
+    <title>Stark Financial | Build Real Wealth Before 25</title>
+    <meta name="description" content="Join 500+ young entrepreneurs building six-figure monthly income with proven financial strategies. Apply now for free training.">
+    <meta name="keywords" content="financial freedom, wealth building, young entrepreneurs, six figures">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Stark Financial | Build Real Wealth Before 25">
+    <meta property="og:description" content="Learn the exact strategies that generate six-figure monthly income.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="logos/stark-financial-logo.png">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="effects/backgrounds.css"> -->
 </head>
 <body>
+    <!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader-content">
+            <img src="logos/stark-financial-logo.png" alt="Stark Financial" class="loader-logo">
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Starry Sky -->
+    <div class="stars"></div>
+    <div class="stars stars-2"></div>
+    <div class="stars stars-3"></div>
+
+    <!-- Drifting Cloud Shadows -->
+    <div class="cloud-shadow"></div>
+    <div class="cloud-shadow cloud-shadow-2"></div>
+
+    <!-- Gradient Orbs -->
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
+        <div class="nav-inner">
             <a href="#" class="nav-logo">
-                <img src="stark-financial-logo.png" alt="Stark Financial">
+                <img src="logos/stark-financial-logo.png" alt="Stark Financial">
+                <img src="logos/stark-financial-logo-text.png" alt="Stark Financial" class="logo-text">
             </a>
-            <button class="mobile-menu-btn" aria-label="Toggle menu">
+            <button class="mobile-toggle" aria-label="Toggle menu">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
             <div class="nav-links">
-                <a href="#results">Results</a>
-                <a href="#services">What You'll Learn</a>
-                <a href="members.html">Members</a>
-                <a href="#" class="cta-button">Apply Now</a>
+                <a href="#results" class="nav-link">Results</a>
+                <a href="#learn" class="nav-link">What You Learn</a>
+                <a href="members.html" class="nav-link">Members</a>
+                <a href="#apply" class="btn btn-primary magnetic-btn">
+                    <span class="magnetic-btn-text">
+                        Apply Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </span>
+                </a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section - Split Layout -->
+    <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-bg-pattern"></div>
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1>I Was Just Like You A Year Ago. Now I'm <span class="highlight">19</span> And Lead A Team Making <span class="highlight">Six Figures</span> Every Month</h1>
-                <p class="hero-description">While your friends are stuck working 9-5 jobs, you could be building real wealth with proven strategies that actually work.</p>
-                <a href="#" class="cta-button">
-                    Apply Now
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
-                    </svg>
-                </a>
-                <p class="hero-subtext">Watch the free training below - it's only 1:30 minutes</p>
+        <div class="hero-grid"></div>
+        <div class="hero-glow"></div>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="hero-badge-dot"></span>
+                    Now accepting applications for 2025
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="line"><span class="line-inner">Most Careers <strong class="gradient">Tell You When</strong> To Show Up.</span></span>
+                    <span class="line"><span class="line-inner">This One <strong class="gradient">Rewards What You Build</strong></span></span>
+                </h1>
+
+                <p class="hero-description">
+                    Clock in, or build income you control
+                </p>
+
+                <div class="hero-cta">
+                    <a href="#apply" class="btn btn-primary btn-large magnetic-btn">
+                        <span class="magnetic-btn-text">
+                            Start Your Journey
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="#video" class="btn btn-secondary">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:20px;height:20px;">
+                            <polygon points="5 3 19 12 5 21 5 3"/>
+                        </svg>
+                        Watch Free Training
+                    </a>
+                </div>
+
+                <div class="hero-social-proof">
+                    <div class="avatar-stack">
+                        <div class="avatar">JM</div>
+                        <div class="avatar">SK</div>
+                        <div class="avatar">AR</div>
+                        <div class="avatar">TB</div>
+                        <div class="avatar">+</div>
+                    </div>
+                    <p><strong>500+</strong> students already enrolled</p>
+                </div>
             </div>
+
             <div class="hero-visual">
-                <div class="hero-image-wrapper">
-                    <img src="screenshots/ytd-earnings.png" alt="Earnings Results" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add your results screenshot</div>'">
+                <div class="hero-card">
+                    <img src="screenshots/ytd-earnings.png" alt="Earnings Dashboard" onerror="this.outerHTML='<div class=hero-card-placeholder>Add your earnings screenshot<br><small>screenshots/ytd-earnings.png</small></div>'">
+                </div>
+
+                <div class="floating-card floating-card-1">
+                    <div class="floating-stat">
+                        <div class="floating-stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="floating-stat-value" data-counter="2000000" data-prefix="$" data-suffix="+">$0</span>
+                            <span class="floating-stat-label">Total Revenue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-card floating-card-2">
+                    <div class="floating-stat">
+                        <div class="floating-stat-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="floating-stat-value">6x</span>
+                            <span class="floating-stat-label">Avg. Growth</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Brand Trust Section -->
-    <section class="brand-trust">
-        <p class="brand-trust-text">Join the ranks of successful individuals who've transformed their financial future</p>
-        <div class="brand-logos">
-            <div class="brand-logo">
-                <img src="logos/brand1.png" alt="Partner" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 40%22><text x=%2210%22 y=%2228%22 fill=%22%23666%22 font-family=%22Arial%22 font-size=%2214%22>Partner 1</text></svg>'">
-            </div>
-            <div class="brand-logo">
-                <img src="logos/brand2.png" alt="Partner" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 40%22><text x=%2210%22 y=%2228%22 fill=%22%23666%22 font-family=%22Arial%22 font-size=%2214%22>Partner 2</text></svg>'">
-            </div>
-            <div class="brand-logo">
-                <img src="logos/brand3.png" alt="Partner" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 40%22><text x=%2210%22 y=%2228%22 fill=%22%23666%22 font-family=%22Arial%22 font-size=%2214%22>Partner 3</text></svg>'">
-            </div>
-            <div class="brand-logo">
-                <img src="logos/brand4.png" alt="Partner" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 40%22><text x=%2210%22 y=%2228%22 fill=%22%23666%22 font-family=%22Arial%22 font-size=%2214%22>Partner 4</text></svg>'">
-            </div>
-            <div class="brand-logo">
-                <img src="logos/brand5.png" alt="Partner" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 40%22><text x=%2210%22 y=%2228%22 fill=%22%23666%22 font-family=%22Arial%22 font-size=%2214%22>Partner 5</text></svg>'">
+    <!-- Logos Section -->
+    <section class="logos-section">
+        <div class="logos-content">
+            <p class="logos-label">Trusted by ambitious individuals worldwide</p>
+            <div class="logos-track">
+                <div class="logo-item">
+                    <span class="logo-placeholder">APEX</span>
+                </div>
+                <div class="logo-item">
+                    <span class="logo-placeholder">VANGUARD</span>
+                </div>
+                <div class="logo-item">
+                    <span class="logo-placeholder">MERIDIAN</span>
+                </div>
+                <div class="logo-item">
+                    <span class="logo-placeholder">PINNACLE</span>
+                </div>
+                <div class="logo-item">
+                    <span class="logo-placeholder">ASCENT</span>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Video Section -->
-    <section class="video-section">
-        <div class="video-container">
-            <div class="video-placeholder">
-                <div class="play-button" onclick="this.style.display='none'; this.parentElement.innerHTML='<iframe width=100% height=100% src=https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1 frameborder=0 allowfullscreen style=position:absolute;top:0;left:0></iframe>'"></div>
+    <section class="video-section" id="video">
+        <div class="video-content reveal">
+            <div class="video-wrapper">
+                <div class="video-placeholder">
+                    <div class="play-btn"></div>
+                </div>
             </div>
+            <p class="video-label">Watch the free 90-second training that changed everything</p>
         </div>
     </section>
 
-    <!-- Services/What You'll Learn Section -->
-    <section class="services-section" id="services">
-        <div class="services-container">
-            <div class="service-card">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
-                    </svg>
-                </div>
-                <h3>Financial Mastery</h3>
-                <p>Learn the exact strategies that took me from zero to six figures. No fluff, just proven methods that generate real results.</p>
+    <!-- Features Section -->
+    <section class="features-section" id="learn">
+        <div class="features-content">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">What You'll Learn</p>
+                <h2 class="section-title">The Exact Blueprint I Used</h2>
+                <p class="section-description">
+                    No fluff. No theory. Just the proven strategies that generate real, repeatable results month after month.
+                </p>
             </div>
-            <div class="service-card">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                        <circle cx="9" cy="7" r="4"/>
-                        <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
-                    </svg>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card-inner">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Financial Mastery</h3>
+                        <p class="feature-text">
+                            Learn the exact strategies that took me from zero to six figures. Proven methods that generate real, repeatable results every single month.
+                        </p>
+                    </div>
                 </div>
-                <h3>Team Building</h3>
-                <p>Discover how to build and lead a high-performing team that scales your income exponentially month after month.</p>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
-                    </svg>
+
+                <div class="feature-card">
+                    <div class="feature-card-inner">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Team Building</h3>
+                        <p class="feature-text">
+                            Discover how to recruit, train, and lead a high-performing team that scales your income exponentially month after month.
+                        </p>
+                    </div>
                 </div>
-                <h3>Consistent Growth</h3>
-                <p>Build systems that generate consistent monthly income. Stop living paycheck to paycheck and start building real wealth.</p>
+
+                <div class="feature-card">
+                    <div class="feature-card-inner">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Consistent Growth</h3>
+                        <p class="feature-text">
+                            Build systems that generate consistent monthly income. Stop living paycheck to paycheck and start building real wealth.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Stats Section -->
     <section class="stats-section">
-        <div class="stats-container">
-            <div class="stat-item">
-                <span class="stat-value">$2M+</span>
-                <span class="stat-label">Revenue Generated</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">500+</span>
-                <span class="stat-label">Students Trained</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">50+</span>
-                <span class="stat-label">Team Members</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-value">6x</span>
-                <span class="stat-label">Avg. Income Growth</span>
+        <div class="stats-content">
+            <div class="stats-grid">
+                <div class="stat-item reveal">
+                    <div class="stat-value" data-counter="2000000" data-prefix="$" data-suffix="+">$0</div>
+                    <div class="stat-label">Revenue Generated</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-1">
+                    <div class="stat-value" data-counter="500" data-suffix="+">0</div>
+                    <div class="stat-label">Students Trained</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-2">
+                    <div class="stat-value" data-counter="50" data-suffix="+">0</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-3">
+                    <div class="stat-value">6x</div>
+                    <div class="stat-label">Avg. Income Growth</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Results/Case Studies Section -->
+    <!-- Results Section -->
     <section class="results-section" id="results">
-        <div class="section-header">
-            <h2>RESULTS</h2>
-            <p>Real numbers. Real success. Real transformation.</p>
-        </div>
-
-        <div class="results-grid">
-            <div class="result-card">
-                <div class="result-badge">Team Production</div>
-                <div class="screenshot-container">
-                    <img src="screenshots/team-production.png" alt="Team Production Chart" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add screenshot: screenshots/team-production.png</div>'">
-                </div>
+        <div class="results-content">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Proof</p>
+                <h2 class="section-title">Real Results, Real Numbers</h2>
+                <p class="section-description">
+                    Transparent earnings from my team. No fake screenshots. This is what's actually possible when you follow the system.
+                </p>
             </div>
 
-            <div class="result-card">
-                <div class="result-badge">Personal Production</div>
-                <div class="screenshot-container">
-                    <img src="screenshots/personal-production.png" alt="Personal Production Chart" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add screenshot: screenshots/personal-production.png</div>'">
+            <div class="results-grid">
+                <div class="result-card">
+                    <div class="result-header">
+                        <span class="result-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                            </svg>
+                            Team Production
+                        </span>
+                        <span class="result-date">Updated Dec 2025</span>
+                    </div>
+                    <div class="result-image">
+                        <img src="screenshots/team-production.png" alt="Team Production" onerror="this.outerHTML='<div class=result-placeholder>Add screenshot<br><small>screenshots/team-production.png</small></div>'">
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <span class="result-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            Personal Production
+                        </span>
+                        <span class="result-date">Updated Dec 2025</span>
+                    </div>
+                    <div class="result-image">
+                        <img src="screenshots/personal-production.png" alt="Personal Production" onerror="this.outerHTML='<div class=result-placeholder>Add screenshot<br><small>screenshots/personal-production.png</small></div>'">
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <span class="result-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                                <line x1="16" y1="2" x2="16" y2="6"/>
+                                <line x1="8" y1="2" x2="8" y2="6"/>
+                                <line x1="3" y1="10" x2="21" y2="10"/>
+                            </svg>
+                            Monthly Breakdown
+                        </span>
+                        <span class="result-date">December 2025</span>
+                    </div>
+                    <div class="result-image">
+                        <img src="screenshots/monthly-breakdown.png" alt="Monthly Breakdown" onerror="this.outerHTML='<div class=result-placeholder>Add screenshot<br><small>screenshots/monthly-breakdown.png</small></div>'">
+                    </div>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <span class="result-badge">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                            </svg>
+                            Weekly Performance
+                        </span>
+                        <span class="result-date">This Week</span>
+                    </div>
+                    <div class="result-image">
+                        <img src="screenshots/weekly-breakdown.png" alt="Weekly Breakdown" onerror="this.outerHTML='<div class=result-placeholder>Add screenshot<br><small>screenshots/weekly-breakdown.png</small></div>'">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Breakdown Section -->
-    <section class="breakdown-section" id="breakdown">
-        <div class="breakdown-grid">
-            <div class="breakdown-card">
-                <div class="result-badge">Monthly <span class="highlight">Breakdown</span></div>
-                <div class="screenshot-container">
-                    <img src="screenshots/monthly-breakdown.png" alt="Monthly Production Breakdown" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add screenshot: screenshots/monthly-breakdown.png</div>'">
-                </div>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="testimonials-content">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Success Stories</p>
+                <h2 class="section-title">What Our Members Say</h2>
+                <p class="section-description">
+                    Real feedback from real members who followed the system.
+                </p>
             </div>
 
-            <div class="breakdown-card">
-                <div class="result-badge">Weekly <span class="highlight">Breakdown</span></div>
-                <div class="screenshot-container">
-                    <img src="screenshots/weekly-breakdown.png" alt="Weekly Performance Breakdown" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add screenshot: screenshots/weekly-breakdown.png</div>'">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "I was skeptical at first, but the results speak for themselves. Made my first $10K month within 90 days of joining. The mentorship is unreal."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JM</div>
+                        <div>
+                            <span class="testimonial-name">Jake M.</span>
+                            <span class="testimonial-role">Member since 2024</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- YTD Earnings Section -->
-    <section class="ytd-section" id="earnings">
-        <div class="section-header">
-            <h2>Current YTD Earnings</h2>
-            <p>Transparent results from this year alone</p>
-        </div>
-        <div class="ytd-card">
-            <div class="screenshot-container">
-                <img src="screenshots/ytd-earnings.png" alt="Current YTD Earnings" onerror="this.parentElement.innerHTML='<div class=image-placeholder>Add screenshot: screenshots/ytd-earnings.png</div>'">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "The community and mentorship here is unmatched. I went from working retail to building my own team in 6 months. Life changing experience."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SK</div>
+                        <div>
+                            <span class="testimonial-name">Sarah K.</span>
+                            <span class="testimonial-role">Team Leader</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Best investment I've ever made in myself. The step-by-step system made it easy to follow and actually see results. No guesswork."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AR</div>
+                        <div>
+                            <span class="testimonial-name">Alex R.</span>
+                            <span class="testimonial-role">Top Performer</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="final-cta">
-        <div class="final-cta-content">
-            <h2>Ready to Transform Your Future?</h2>
-            <p>Join hundreds of others who've already started their journey to financial freedom.</p>
-            <a href="#" class="cta-button cta-large">
-                Apply Now
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
+    <section class="cta-section" id="apply">
+        <div class="cta-glow"></div>
+        <div class="cta-content">
+            <h2 class="cta-title reveal">Ready to Transform Your Future?</h2>
+            <p class="cta-description reveal reveal-delay-1">
+                Join hundreds of others who've already started their journey to financial freedom. Limited spots available for 2025.
+            </p>
+            <a href="#" class="btn btn-primary btn-large magnetic-btn reveal reveal-delay-2">
+                <span class="magnetic-btn-text">
+                    Apply Now - It's Free
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </span>
             </a>
+            <div class="cta-features reveal reveal-delay-3">
+                <div class="cta-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                    No experience required
+                </div>
+                <div class="cta-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                    1-on-1 mentorship included
+                </div>
+                <div class="cta-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 6L9 17l-5-5"/>
+                    </svg>
+                    Proven system with results
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-container">
+    <footer class="footer">
+        <div class="footer-content">
             <div class="footer-top">
-                <div class="footer-logo">
-                    <img src="stark-financial-logo.png" alt="Stark Financial">
-                </div>
+                <a href="#" class="footer-logo">
+                    <img src="logos/stark-financial-logo.png" alt="Stark Financial">
+                </a>
                 <div class="footer-social">
-                    <a href="#" aria-label="Instagram">
+                    <a href="https://www.instagram.com/starkfinancial/?igsh=MXJ4eXM4MXdxYnl2bw%3D%3D" target="_blank" aria-label="Instagram">
                         <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
                         </svg>
-                        @starkfinancial
+                    </a>
+                    <!-- X/Twitter hidden for now
+                    <a href="#" aria-label="Twitter/X">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                    -->
+                    <a href="#" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                    </a>
+                    <a href="#" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+                        </svg>
                     </a>
                 </div>
             </div>
-
-            <div class="footer-divider"></div>
 
             <div class="footer-bottom">
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
                 </div>
-                <p class="copyright">&copy; 2025 Stark Financial. All rights reserved.</p>
+                <p class="footer-copyright">&copy; 2025 Stark Financial. All rights reserved.</p>
             </div>
 
-            <div class="disclaimer">
-                <p><strong>Disclaimer:</strong> Any financial numbers referenced here, or on any of our sites or emails, are simply estimates or projections, or past results, and should not be considered exact, actual or as a promise of potential earnings. All numbers are illustrative only. Your results will vary.</p>
-                <p>This coaching program and course are intended for adults 18 years of age or older. We do not knowingly market, sell, or provide services to anyone under 18. By purchasing or accessing our platform, you confirm that you are at least 18 years old, or have the expressed consent of a parent or legal guardian.</p>
+            <div class="footer-disclaimer">
+                <p><strong>Earnings Disclaimer:</strong> Any financial numbers referenced here, or on any of our sites or emails, are simply estimates or projections, or past results, and should not be considered exact, actual or as a promise of potential earnings. All numbers are illustrative only. Your results will vary based on effort, experience, and market conditions.</p>
+                <p><strong>Age Requirement:</strong> This coaching program and course are intended for adults 18 years of age or older. We do not knowingly market, sell, or provide services to anyone under 18. By purchasing or accessing our platform, you confirm that you are at least 18 years old, or have the expressed consent of a parent or legal guardian.</p>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Mobile menu toggle
-        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-        const navLinks = document.querySelector('.nav-links');
+    <!-- Background Effects Toggle -->
+    <button class="effects-toggle" id="effectsToggle" aria-label="Toggle background effects">
+        <svg class="effects-on" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="effects-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none;">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
 
-        mobileMenuBtn?.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            mobileMenuBtn.classList.toggle('active');
-        });
+    <!-- Mobile Sticky CTA -->
+    <div class="mobile-sticky-cta">
+        <a href="#apply" class="btn btn-primary">
+            <span>Apply Now</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+        </a>
+    </div>
 
-        // Smooth scroll for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                const href = this.getAttribute('href');
-                if (href === '#') return;
-
-                e.preventDefault();
-                const target = document.querySelector(href);
-                if (target) {
-                    const navHeight = document.querySelector('.nav').offsetHeight;
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
-                    const offsetPosition = targetPosition - navHeight - 20;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-
-                    // Close mobile menu if open
-                    navLinks.classList.remove('active');
-                    mobileMenuBtn?.classList.remove('active');
-                }
-            });
-        });
-
-        // Scroll effect for navigation
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('.nav');
-            if (window.scrollY > 50) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-
-        // Animate elements on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.result-card, .breakdown-card, .ytd-card, .service-card, .stat-item').forEach(el => {
-            el.classList.add('animate-on-scroll');
-            observer.observe(el);
-        });
-    </script>
+    <!-- Scripts -->
+    <script src="main.js"></script>
 </body>
 </html>

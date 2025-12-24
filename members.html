@@ -435,15 +435,14 @@
             </a>
             <div class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
-                <a href="index.html#results" class="nav-link">Results</a>
-                <a href="index.html#apply" class="btn btn-primary magnetic-btn">
-                    <span class="magnetic-btn-text">
-                        Apply Now
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M5 12h14M12 5l7 7-7 7"/>
-                        </svg>
-                    </span>
-                </a>
+                <button class="logout-btn" id="nav-logout" onclick="logout()" style="display: none;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                        <polyline points="16 17 21 12 16 7"/>
+                        <line x1="21" y1="12" x2="9" y2="12"/>
+                    </svg>
+                    Logout
+                </button>
             </div>
         </div>
     </nav>
@@ -488,14 +487,6 @@
                     <h1>Exclusive Training</h1>
                     <p>Welcome to your private training library</p>
                 </div>
-                <button class="logout-btn" onclick="logout()">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
-                        <polyline points="16 17 21 12 16 7"/>
-                        <line x1="21" y1="12" x2="9" y2="12"/>
-                    </svg>
-                    Logout
-                </button>
             </div>
 
             <div class="videos-grid">
@@ -663,12 +654,14 @@
         function showVideos() {
             document.getElementById('login-section').style.display = 'none';
             document.getElementById('videos-section').style.display = 'block';
+            document.getElementById('nav-logout').style.display = 'inline-flex';
         }
 
         function logout() {
             sessionStorage.removeItem('members_access');
             document.getElementById('login-section').style.display = 'flex';
             document.getElementById('videos-section').style.display = 'none';
+            document.getElementById('nav-logout').style.display = 'none';
             document.getElementById('access-code').value = '';
             document.getElementById('error-message').textContent = '';
         }

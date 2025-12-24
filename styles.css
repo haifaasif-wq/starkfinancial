@@ -1555,7 +1555,6 @@ body {
     }
 
     .hero-visual {
-        order: -1;
         max-width: 520px;
         margin: 0 auto;
     }
